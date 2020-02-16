@@ -63,8 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameScript.cs" />
-    <Compile Include="Assets\Scripts\target.cs" />
+    <Compile Include="Assets\Scripts\ScoreControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\TargetControllerScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/GitHub/WhackATeemo/WhackATeemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

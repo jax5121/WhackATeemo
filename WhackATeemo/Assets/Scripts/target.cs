@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class target : MonoBehaviour
+public class Target : MonoBehaviour
 {
     public int timer;
+    public bool inUse;
     // Start is called before the first frame update
     void Start()
     {
-        
+        inUse = false;
     }
 
     // Update is called once per frame
@@ -19,5 +20,11 @@ public class target : MonoBehaviour
             Destroy(this.gameObject);
         }
         timer--;
+    }
+
+    void OnMouseDown() // need box collider for this to work
+    {
+        ScoreControllerScript.score++;
+        Destroy(this.gameObject);
     }
 }

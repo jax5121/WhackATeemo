@@ -270,7 +270,6 @@ E:\GitHub\WhackATeemo\WhackATeemo\Temp\bin\Debug\UnityEngine.XRModule.xml
 E:\GitHub\WhackATeemo\WhackATeemo\Temp\bin\Debug\UnityEditor.TestRunner.pdb
 E:\GitHub\WhackATeemo\WhackATeemo\Temp\bin\Debug\UnityEngine.TestRunner.pdb
 E:\GitHub\WhackATeemo\WhackATeemo\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-E:\GitHub\WhackATeemo\WhackATeemo\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 E:\GitHub\WhackATeemo\WhackATeemo\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\GitHub\WhackATeemo\WhackATeemo\obj\Debug\Assembly-CSharp.dll
 E:\GitHub\WhackATeemo\WhackATeemo\obj\Debug\Assembly-CSharp.pdb

@@ -1,5 +1,1 @@
-<<<<<<< refs/remotes/origin/master
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":330.97454833984377,"y":205.39341735839845,"z":-135.625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":652.1943359375,"orthographic":true}
-=======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":379.8293151855469,"y":272.29364013671877,"z":-71.26177215576172},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":694.337158203125,"orthographic":true}
->>>>>>> Added health bar and endgame state

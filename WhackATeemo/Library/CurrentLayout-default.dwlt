@@ -21,15 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 10}
-<<<<<<< refs/remotes/origin/master
-<<<<<<< refs/remotes/origin/master
   m_MinSize: {x: 875, y: 300}
-=======
-  m_MinSize: {x: 875, y: 613}
->>>>>>> Added health bar and endgame state
-=======
-  m_MinSize: {x: 875, y: 300}
->>>>>>> Updated extra files
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -50,15 +42,6 @@ MonoBehaviour:
     x: 0
     y: 573
     width: 1583
-<<<<<<< refs/remotes/origin/master
-    height: 226
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
-  m_Panes:
-  - {fileID: 22}
-  - {fileID: 15}
-=======
     height: 205
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -66,7 +49,6 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 23}
   - {fileID: 16}
->>>>>>> Added health bar and endgame state
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &3
@@ -88,22 +70,11 @@ MonoBehaviour:
     y: 778
     width: 1583
     height: 529
-<<<<<<< refs/remotes/origin/master
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< refs/remotes/origin/master
-  m_ActualView: {fileID: 21}
-  m_Panes:
-  - {fileID: 21}
-=======
-=======
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
->>>>>>> Updated extra files
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
->>>>>>> Added health bar and endgame state
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -128,21 +99,10 @@ MonoBehaviour:
     y: 0
     width: 1583
     height: 1307
-<<<<<<< refs/remotes/origin/master
-  m_MinSize: {x: 201, y: 542}
-  m_MaxSize: {x: 4001, y: 12042}
-  vertical: 1
-  controlID: 35
-=======
   m_MinSize: {x: 201, y: 563}
   m_MaxSize: {x: 4001, y: 12063}
   vertical: 1
-<<<<<<< refs/remotes/origin/master
-  controlID: 151
->>>>>>> Added health bar and endgame state
-=======
   controlID: 38
->>>>>>> Updated extra files
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,18 +121,6 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1583
-<<<<<<< refs/remotes/origin/master
-    height: 646
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
-  - {fileID: 16}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 2
-=======
     height: 573
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -184,7 +132,6 @@ MonoBehaviour:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 3
->>>>>>> Added health bar and endgame state
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,24 +154,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-<<<<<<< refs/remotes/origin/master
-<<<<<<< refs/remotes/origin/master
-  m_MinSize: {x: 708, y: 542}
-  m_MaxSize: {x: 18003, y: 14042}
-  vertical: 0
-  controlID: 34
-=======
-  m_MinSize: {x: 708, y: 563}
-  m_MaxSize: {x: 18003, y: 14021}
-  vertical: 0
-  controlID: 68
->>>>>>> Added health bar and endgame state
-=======
   m_MinSize: {x: 709, y: 563}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
   controlID: 182
->>>>>>> Updated extra files
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,22 +177,11 @@ MonoBehaviour:
     y: 0
     width: 519
     height: 1307
-<<<<<<< refs/remotes/origin/master
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< refs/remotes/origin/master
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-=======
-=======
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
->>>>>>> Updated extra files
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
->>>>>>> Added health bar and endgame state
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -281,22 +203,11 @@ MonoBehaviour:
     y: 0
     width: 458
     height: 790
-<<<<<<< refs/remotes/origin/master
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< refs/remotes/origin/master
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
-=======
-=======
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
->>>>>>> Updated extra files
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
->>>>>>> Added health bar and endgame state
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -320,15 +231,9 @@ MonoBehaviour:
     height: 517
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-<<<<<<< refs/remotes/origin/master
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-=======
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
->>>>>>> Added health bar and endgame state
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -432,8 +337,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< refs/remotes/origin/master
-=======
   m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
   m_Name: SpriteEditorWindow
   m_EditorClassIdentifier: 
@@ -463,7 +366,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
->>>>>>> Added health bar and endgame state
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -519,11 +421,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
-<<<<<<< refs/remotes/origin/master
---- !u!114 &15
-=======
 --- !u!114 &16
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,13 +449,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< refs/remotes/origin/master
-  m_LastSelectedObjectID: -44264
---- !u!114 &16
-=======
   m_LastSelectedObjectID: -6768
 --- !u!114 &17
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -583,11 +476,7 @@ MonoBehaviour:
     width: 1582
     height: 625
   m_ViewDataDictionary: {fileID: 0}
-<<<<<<< refs/remotes/origin/master
---- !u!114 &17
-=======
 --- !u!114 &18
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -637,21 +526,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< refs/remotes/origin/master
-<<<<<<< refs/remotes/origin/master
-    m_SelectedIDs: 36340000
-    m_LastClickedID: 13366
-    m_ExpandedIDs: 000000002834000000ca9a3b
-=======
-    m_SelectedIDs: 9c340000
-    m_LastClickedID: 13468
-    m_ExpandedIDs: 000000008e34000000ca9a3b
->>>>>>> Added health bar and endgame state
-=======
     m_SelectedIDs: ae340000
     m_LastClickedID: 13486
     m_ExpandedIDs: 00000000a234000000ca9a3b
->>>>>>> Updated extra files
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,15 +556,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< refs/remotes/origin/master
-<<<<<<< refs/remotes/origin/master
-    m_ExpandedIDs: 0000000028340000
-=======
-    m_ExpandedIDs: 000000008e340000
->>>>>>> Added health bar and endgame state
-=======
     m_ExpandedIDs: 00000000a2340000
->>>>>>> Updated extra files
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,11 +612,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
-<<<<<<< refs/remotes/origin/master
---- !u!114 &18
-=======
 --- !u!114 &19
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -785,11 +650,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
-<<<<<<< refs/remotes/origin/master
---- !u!114 &19
-=======
 --- !u!114 &20
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -818,20 +679,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< refs/remotes/origin/master
-<<<<<<< refs/remotes/origin/master
-      m_SelectedIDs: 6efbffff
-      m_LastClickedID: -1170
-=======
-      m_SelectedIDs: 
-      m_LastClickedID: 0
->>>>>>> Added health bar and endgame state
-      m_ExpandedIDs: 6efbffff
-=======
       m_SelectedIDs: 44360000
       m_LastClickedID: 0
       m_ExpandedIDs: 5afbffff
->>>>>>> Updated extra files
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -855,11 +705,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 0e3dcabe757858c498e9225a73a431a6
-<<<<<<< refs/remotes/origin/master
---- !u!114 &20
-=======
 --- !u!114 &21
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -895,15 +741,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< refs/remotes/origin/master
-    m_Target: {x: 330.97455, y: 205.39342, z: -135.625}
-    speed: 2
-    m_Value: {x: 330.97455, y: 205.39342, z: -135.625}
-=======
     m_Target: {x: 379.8293, y: 272.29364, z: -71.26177}
     speed: 2
     m_Value: {x: 379.8293, y: 272.29364, z: -71.26177}
->>>>>>> Added health bar and endgame state
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -953,15 +793,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< refs/remotes/origin/master
-    m_Target: 652.19434
-    speed: 2
-    m_Value: 652.19434
-=======
     m_Target: 694.33716
     speed: 2
     m_Value: 694.33716
->>>>>>> Added health bar and endgame state
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -986,11 +820,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< refs/remotes/origin/master
---- !u!114 &21
-=======
 --- !u!114 &22
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1079,11 +909,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
-<<<<<<< refs/remotes/origin/master
---- !u!114 &22
-=======
 --- !u!114 &23
->>>>>>> Added health bar and endgame state
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}

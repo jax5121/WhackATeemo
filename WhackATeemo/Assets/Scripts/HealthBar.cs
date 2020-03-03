@@ -10,7 +10,7 @@ public class HealthBar : MonoBehaviour
 
     private RectTransform rt;
     private float unit;
-    private int nextUpdate;
+    private double nextUpdate;
 
     // Start is called before the first frame update
     void Start()
@@ -32,14 +32,18 @@ public class HealthBar : MonoBehaviour
             if (new_size.x <= 0)
             {
                 new_size.x = 0;
-                TargetControllerScript.spawn = false;
+                //game over
             }
             else
             {
-                new_size.x -= unit;
+                new_size.x -= unit;                
             }
+            
             rt.sizeDelta = new_size;
-        }       
-        
+        }
+
+        //rt. = Mathf.Lerp(.x, 0f, Time.deltaTime * 0.10f);
+        //rt.localScale = new_size;
+
     }
 }

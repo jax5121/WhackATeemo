@@ -14,7 +14,7 @@ public class TargetControllerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawn = true;
+        /*spawn = true;
 
         //create spawnpoint list
         spawnPoints = GameObject.FindGameObjectsWithTag("obstacle");
@@ -26,13 +26,13 @@ public class TargetControllerScript : MonoBehaviour
         for(int i = 0; i < prefabList.Length; i++)
         {
             prefabList[i] = prefab;
-        }
+        }*/
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (spawn)
+        /*if (spawn)
         {        
             int rand = Random.Range(0, 1000);
             if (rand > 970)
@@ -41,8 +41,8 @@ public class TargetControllerScript : MonoBehaviour
                 float x = spawnPoints[sp].transform.position.x;
                 float y = spawnPoints[sp].transform.position.y + 50;
                 Instantiate(prefabList[sp], new Vector3(x,y,0), Quaternion.identity);
-        
+                spawnPoints[sp].GetComponent<Obstacle>().SetInUse(true);
             }
-        }
+        }*/
     }
 }

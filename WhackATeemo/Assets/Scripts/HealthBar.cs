@@ -7,14 +7,17 @@ public class HealthBar : MonoBehaviour
     public static Vector2 new_size;
     
     public int game_length;
+    public GameObject endGameScreen;
 
     private RectTransform rt;
     private float unit;
     private double nextUpdate;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        endGameScreen.SetActive(false);
         rt = this.gameObject.GetComponent<RectTransform>();
         Debug.Log(rt.rect.width);
         new_size = new Vector2(rt.rect.width, rt.rect.height);
@@ -33,6 +36,7 @@ public class HealthBar : MonoBehaviour
             {
                 new_size.x = 0;
                 //game over
+                endGameScreen.SetActive(true);
             }
             else
             {

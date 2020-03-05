@@ -55,11 +55,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\FinalScore.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\SceneController.cs" />
      <Compile Include="Assets\Scripts\ScoreControllerScript.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\TargetControllerScript.cs" />
+     <Compile Include="Assets\Scripts\TempGrayScreen.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/GitHub/WhackATeemo/WhackATeemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

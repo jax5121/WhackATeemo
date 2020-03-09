@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2055500729982223733, guid: e1cf313ab916b1049ad9c14cab72b91d, type: 3}
+  offset: 50

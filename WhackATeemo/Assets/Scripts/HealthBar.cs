@@ -1,53 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public static Vector2 new_size;
+    private static Vector2 end_size;
     
     public int game_length;
     public GameObject endGameScreen;
 
     private RectTransform rt;
-    private float unit;
     private double nextUpdate;
+    private float timePassed;
+    private float startWidth;
 
+    private Vector2 healTo;
+
+    private Text text;
 
     // Start is called before the first frame update
     void Start()
     {
         endGameScreen.SetActive(false);
         rt = this.gameObject.GetComponent<RectTransform>();
-        Debug.Log(rt.rect.width);
-        new_size = new Vector2(rt.rect.width, rt.rect.height);
-        unit = rt.rect.width / game_length;
-        //InvokeRepeating("Update", 0, 1.0f);
-        nextUpdate = 1;
+        startWidth = rt.rect.height;
+        end_size = new Vector2(0f, rt.rect.height);
+
+        //debug time
+        text = GameObject.Find("txtTime").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= nextUpdate)
+        timePassed += Time.deltaTime;
+        text.text = "Time = " + timePassed.ToString();
+        
+        if (PowerUps.regenPower)
         {
-            nextUpdate = Mathf.FloorToInt(Time.time) + 1;
-            if (new_size.x <= 0)
-            {
-                new_size.x = 0;
-                //game over
-                endGameScreen.SetActive(true);
-            }
-            else
-            {
-                new_size.x -= unit;                
-            }
-            
-            rt.sizeDelta = new_size;
+            Debug.Log("Regen Power Active");
+            PowerUps.regenPower = false;
         }
-
-        //rt. = Mathf.Lerp(.x, 0f, Time.deltaTime * 0.10f);
-        //rt.localScale = new_size;
+        else if (rt.sizeDelta != end_size)
+        {
+            rt.sizeDelta = Vector2.MoveTowards(rt.sizeDelta, end_size, Time.deltaTime * game_length);            
+        }
+        else
+        {
+            endGameScreen.SetActive(true);
+        }
 
     }
 }

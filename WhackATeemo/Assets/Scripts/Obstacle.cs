@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public GameObject target; 
+    public GameObject target;
+    public float offset;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,7 @@ public class Obstacle : MonoBehaviour
 
     void Spawn()
     {        
-        GameObject g = Instantiate(target, new Vector3(transform.position.x, transform.position.y, 1), Quaternion.identity);
+        GameObject g = Instantiate(target, new Vector3(transform.position.x, transform.position.y+offset, 1), Quaternion.identity);
         if(TargetControllerScript.spawn) Invoke("Spawn", Random.Range(2, 10));
     }
 

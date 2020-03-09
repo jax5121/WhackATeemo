@@ -24,7 +24,7 @@ public class Target : MonoBehaviour
 
     void OnMouseDown() // need box collider for this to work
     {
-        ScoreControllerScript.score+=100;
+        ScoreControllerScript.score+=1;
         Destroy(this.gameObject);
     }
 }

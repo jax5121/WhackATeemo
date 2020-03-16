@@ -18,6 +18,7 @@ public class Target : MonoBehaviour
     {
         if (timer == 0) // attacks player and disappears
         {
+            HealthBar.attacks++;
             Destroy(this.gameObject);
         }
         timer--;

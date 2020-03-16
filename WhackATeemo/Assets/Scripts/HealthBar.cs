@@ -42,10 +42,10 @@ public class HealthBar : MonoBehaviour
     void Update()
     {
         text.text = "";// + timePassed.ToString();
-        if (RegenButton.active)
+        if (StasisButton.active)
         {
             text.text = "Regen Power Active";
-            image.color = Color.green;           
+            image.color = Color.yellow;           
         }
         else if (rt.sizeDelta != end_size)
         {
@@ -54,6 +54,7 @@ public class HealthBar : MonoBehaviour
         }
         else
         {
+            TargetControllerScript.spawn = false;
             endGameScreen.SetActive(true);
         }
 

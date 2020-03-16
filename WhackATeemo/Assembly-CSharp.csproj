@@ -56,13 +56,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AbilityButton.cs" />
+     <Compile Include="Assets\Scripts\AoeButton.cs" />
      <Compile Include="Assets\Scripts\FinalScore.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\PowerUps.cs" />
-     <Compile Include="Assets\Scripts\RegenButton.cs" />
+     <Compile Include="Assets\Scripts\QssButton.cs" />
      <Compile Include="Assets\Scripts\SceneController.cs" />
      <Compile Include="Assets\Scripts\ScoreControllerScript.cs" />
+     <Compile Include="Assets\Scripts\StasisButton.cs" />
+     <Compile Include="Assets\Scripts\StunButton.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\TargetControllerScript.cs" />
      <Compile Include="Assets\Scripts\TempGrayScreen.cs" />

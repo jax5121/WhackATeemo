@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 500
+  worth: 1
   inUse: 0
 --- !u!65 &3351349680338921820
 BoxCollider:

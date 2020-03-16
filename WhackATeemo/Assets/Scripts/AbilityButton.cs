@@ -7,14 +7,15 @@ using System;
 public class AbilityButton : MonoBehaviour
 {
     public static bool active;
-    
-    public int length;
+    public static bool onCoolDown;
+
+    public int coolDown;
     public string abilityName;
-    public Button button;    
     
+    protected float timePassed;
+    private int secondsLeft;
+    public Button button;      
     public Text text;
-    private float timePassed;
-    private int secondsPassed;
 
     public void ActivatePower()
     {
@@ -28,18 +29,17 @@ public class AbilityButton : MonoBehaviour
     }
 
     // Update is called once per frame
-    protected virtual void Update()
+    protected virtual void Update() 
     {
-        Debug.Log("button2 update");
-        button.interactable = !active;
-        if(active)
+        button.interactable = !onCoolDown;
+        if (onCoolDown)
         {
             timePassed += Time.deltaTime;
-            secondsPassed = Convert.ToInt32(timePassed);
-            text.text = secondsPassed.ToString();
-            if (timePassed >= length)
+            secondsLeft = coolDown - Convert.ToInt32(timePassed);
+            text.text = secondsLeft.ToString();
+            if (timePassed >= coolDown)
             {
-                active = false;
+                onCoolDown = false;
                 timePassed = 0;
                 text.text = abilityName;
             }

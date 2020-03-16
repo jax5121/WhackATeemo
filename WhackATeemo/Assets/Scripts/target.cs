@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public int timer;
+    public int worth;
     public bool inUse;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,8 @@ public class Target : MonoBehaviour
 
     void OnMouseDown() // need box collider for this to work
     {
-        ScoreControllerScript.score+=1;
+        if (StasisButton.active) worth = 2;
+        ScoreControllerScript.score+=worth;
         Destroy(this.gameObject);
     }
 }
